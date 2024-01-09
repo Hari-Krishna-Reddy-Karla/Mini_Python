@@ -9,3 +9,6 @@ tip = total_bill * tip_percent / 100
 bill_each = (total_bill + tip) / no_of_people
 
 print(f'Each person should pay: {round(bill_each, 2)}')
+
+# Alternative to round function
+print(f'Each person should pay: {bill_each:.2f}')
